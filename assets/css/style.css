@@ -14,6 +14,7 @@
 
 .container{
   width: 61.25%;
+  min-width: 930px;
   margin: 0 auto;
 }
 
@@ -31,6 +32,7 @@ h1{
 
 h2{
   font-size: 3.125rem;
+  margin-bottom: 20px;
 }
 
 p{
@@ -100,7 +102,7 @@ nav ul li a{
   line-height: 150px;
 }
 
-/* MAIN */
+/* MAIN - SECTIONS*/
 
 section.gray{
   background-color: #f6f6f6;
@@ -111,13 +113,13 @@ section .container{
   background-color: green;
 }
 
-section picture{
+section figure{
   width: 69%;
   float: left;
   background-color: red;
 }
 
-picture.right{
+figure.right{
   text-align: right;
 }
 
@@ -128,10 +130,37 @@ section aside{
   background-color: aqua;
 }
 
-section aside h2{
+section h2{
   padding-top: 27px;
 }
 
-section aside p{
-  padding: 20px 0 0 2px;
+/* MAIN - BOTTOM */
+
+.text-bottom{
+  width: 87.5%;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.figure-bottom, .figure-bottom img, .text-img-bottom img{
+  width: 100%;
+}
+
+.figure-bottom{
+  margin-bottom: 17px;
+}
+
+.text-img-bottom{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.text-img-bottom h3{
+  width: 100%;
+  font-size: 2rem;
+  position: absolute;
+  top: 70%;
+  text-align: center;
 }
