@@ -24,10 +24,20 @@ body{
 /* HEADER */
 
 header{
-  height: 100px;
-  line-height: 100px;
+  height: 84px;
+  line-height: 84px;
   background-color: #255ee9;
   text-align: center;
+}
+
+header .container{
+  position: relative;
+}
+
+header .container img{
+  position: absolute;
+  top: 25px;
+  left: 0;
 }
 
 nav ul{
