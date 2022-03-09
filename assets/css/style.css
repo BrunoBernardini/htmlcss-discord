@@ -11,3 +11,72 @@
   display: table;
   clear: both;
 }
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header{
+  height: 100px;
+  line-height: 100px;
+  background-color: #255ee9;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  z-index: 999;
+}
+
+nav ul li{
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+  position: relative;
+}
+
+.jumbotron img{
+  width: 100%;
+}
+
+.jumbo-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.jumbo-center h1{
+  font-size: 3.725rem;
+  font-weight: 700;
+  line-height: 150px;
+}
+
+.jumbo-center p{
+  font-size: 20.125px;
+  font-weight: 500;
+  line-height: 31.5px;
+}
