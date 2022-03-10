@@ -152,7 +152,7 @@ section h2{
 
 .text-img-bottom{
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   text-align: center;
   position: relative;
 }
@@ -163,4 +163,54 @@ section h2{
   position: absolute;
   top: 70%;
   text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #23272a;
+  color: white;
+  padding-top: 87px;
+}
+
+footer .top-footer{
+  padding-bottom: 38px;
+  border-bottom: 1px solid #7288d9;
+}
+
+footer .top-footer h3{
+  font-size: 2rem;
+  color: #7288d9;
+  margin-bottom: 27px;
+}
+
+.top-footer aside{
+  width: 25%;
+}
+
+.top-footer aside .language{
+  margin-bottom: 22px;
+}
+
+.language img{
+  height: 16px;
+  vertical-align: middle;
+}
+
+.language span{
+  font-size: 14px;
+}
+
+.language span i{
+  font-size: 10px;
+  vertical-align: 20%;
+  cursor: pointer;
+}
+
+.top-footer aside .socials{
+  font-size: 20px;
+}
+
+.socials i{
+  margin-right: 20px;
 }
