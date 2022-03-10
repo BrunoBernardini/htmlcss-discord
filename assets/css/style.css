@@ -90,6 +90,12 @@ a .button.liliac:hover{
   background-color: #c7a0ff;
 }
 
+.button.big i{
+  font-size: 15px;
+  vertical-align: 10%;
+  margin: 0 7px 0 3px;
+}
+
 /* HEADER */
 
 header{
@@ -162,12 +168,6 @@ header .container .button{
   margin-bottom: 23px;
 }
 
-.jumbo-center .button.big i{
-  font-size: 15px;
-  vertical-align: 10%;
-  margin: 0 7px 0 3px;
-}
-
 /* MAIN - SECTIONS*/
 
 section.gray{
@@ -176,6 +176,10 @@ section.gray{
 
 section .container{
   padding: 116px 0 230px 0;
+}
+
+section:last-of-type .container{
+  padding-bottom: 136px;
 }
 
 section figure{
@@ -205,7 +209,7 @@ section h2{
   margin: 0 auto 15px;
 }
 
-.figure-bottom, .figure-bottom img, .text-img-bottom img{
+.figure-bottom, .figure-bottom img, .text-img-bottom img, .bottom-line{
   width: 100%;
 }
 
@@ -225,6 +229,10 @@ section h2{
   font-size: 2rem;
   position: absolute;
   top: 70%;
+  text-align: center;
+}
+
+.bottom-line{
   text-align: center;
 }
 
