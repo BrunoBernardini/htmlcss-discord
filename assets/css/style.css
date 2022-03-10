@@ -46,6 +46,30 @@ a{
   color: white;
 }
 
+/* BUTTONS */
+
+.button{
+  display: inline-block;
+  font-size: 15px;
+  line-height: 37px;
+  padding: 0 12.5px;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+}
+
+.button.big{
+  font-size: 21px;
+  line-height: 58px;
+  padding: 0 30px;
+  margin-left: 23px;
+}
+
+.dark{
+  background-color: #202427;
+  color: white;
+}
+
 /* HEADER */
 
 header{
@@ -80,6 +104,12 @@ nav ul li a{
   margin: 0 20px;
 }
 
+header .container .button{
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
 /* JUMBOTRON */
 
 .jumbotron{
@@ -98,11 +128,20 @@ nav ul li a{
   width: 40%;
   text-align: center;
   color: white;
-  background-color: red;
 }
 
 .jumbo-center h1{
   line-height: 150px;
+}
+
+.jumbo-center p{
+  margin-bottom: 23px;
+}
+
+.jumbo-center .button.big i{
+  font-size: 15px;
+  vertical-align: 10%;
+  margin: 0 7px 0 3px;
 }
 
 /* MAIN - SECTIONS*/
@@ -113,13 +152,11 @@ section.gray{
 
 section .container{
   padding: 116px 0 230px 0;
-  background-color: green;
 }
 
 section figure{
   width: 69%;
   float: left;
-  background-color: red;
 }
 
 figure.right{
@@ -130,7 +167,6 @@ section aside{
   width: 31%;
   float: left;
   color: #202427;
-  background-color: aqua;
 }
 
 section h2{
