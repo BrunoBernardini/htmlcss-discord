@@ -41,6 +41,11 @@ p{
   line-height: 31.5px;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 /* HEADER */
 
 header{
@@ -70,8 +75,6 @@ nav ul li{
 }
 
 nav ul li a{
-  text-decoration: none;
-  color: white;
   font-size: 16px;
   font-weight: 500;
   margin: 0 20px;
@@ -170,11 +173,10 @@ section h2{
 footer{
   background-color: #23272a;
   color: white;
-  padding-top: 87px;
+  padding-top: 82px;
 }
 
 footer .top-footer{
-  padding-bottom: 38px;
   border-bottom: 1px solid #7288d9;
 }
 
@@ -184,7 +186,11 @@ footer .top-footer h3{
   margin-bottom: 27px;
 }
 
+/* ASIDE */
+
 .top-footer aside{
+  display: block;
+  float: left;
   width: 25%;
 }
 
@@ -213,4 +219,22 @@ footer .top-footer h3{
 
 .socials i{
   margin-right: 20px;
+}
+
+/* LISTS */
+
+.top-footer ul{
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 0 0 28px 92px;
+}
+
+.top-footer ul li{
+  padding: 7px 0 7px 0;
+}
+
+.top-footer ul li:first-of-type{
+  color: #7288d9;
+  font-weight: bold;
 }
