@@ -75,6 +75,21 @@ a{
   color: white;
 }
 
+a .button:hover{
+  box-shadow: 0px  3px  15px black;
+  color: #255ee9;
+}
+
+a .button.dark:hover{
+  color: white;
+  background-color: #36393f;
+}
+
+a .button.liliac:hover{
+  color: white;
+  background-color: #c7a0ff;
+}
+
 /* HEADER */
 
 header{
